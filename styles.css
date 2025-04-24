@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 460px;
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  resize: none;
+  padding: 10px 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.counter {
+  position: absolute;
+  top: 103px;
+  left: 395px;
+  font-size: 0.9rem;
+  width: 60px;
+  height: 20px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-end;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.red {
+  border: 2px solid red;
+  color: red;
+}
+
+.red-counter {
+  color: red;
+}
